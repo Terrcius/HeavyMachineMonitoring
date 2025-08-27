@@ -1,0 +1,44 @@
+<div
+  class="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans p-4 md:p-8 flex flex-col items-center"
+>
+  <header
+    class="w-full max-w-7xl mb-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
+  >
+    <h1 class="text-3xl font-extrabold text-blue-600 dark:text-blue-400">
+      Monitoramento de Máquinas
+    </h1>
+    <nav class="flex space-x-2 sm:space-x-4">
+      <button
+        (click)="setView('dashboard')"
+        [class.bg-blue-600]="view() === 'dashboard'"
+        [class.text-white]="view() === 'dashboard'"
+        class="px-4 py-2 rounded-lg font-medium text-sm sm:text-base transition-colors duration-200 ease-in-out border border-transparent hover:bg-blue-700 dark:hover:bg-blue-500"
+      >
+        Dashboard
+      </button>
+      <button
+        (click)="setView('add')"
+        [class.bg-blue-600]="view() === 'add'"
+        [class.text-white]="view() === 'add'"
+        class="px-4 py-2 rounded-lg font-medium text-sm sm:text-base transition-colors duration-200 ease-in-out border border-transparent hover:bg-blue-700 dark:hover:bg-blue-500"
+      >
+        Cadastrar Máquina
+      </button>
+    </nav>
+  </header>
+
+  <main
+    class="w-full max-w-7xl p-4 sm:p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-xl transition-all duration-300 ease-in-out"
+  >
+    @if (view() === 'dashboard') {
+    <app-dashboard (viewDetails)="setView('details', $event)"></app-dashboard>
+    } @else if (view() === 'add') {
+    <app-machine-form (formSubmitted)="setView('dashboard')"></app-machine-form>
+    } @else if (view() === 'details') {
+    <app-machine-details
+      [machineId]="selectedMachineId()"
+      (back)="setView('dashboard')"
+    ></app-machine-details>
+    }
+  </main>
+</div>
