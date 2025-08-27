@@ -112,6 +112,5 @@ Ferramentas: Angular CLI, .NET CLI, Git
 ✅ Documentação - Swagger e README completos
 
 👨‍💻 Desenvolvido por
-[Seu Nome] - [seu.email@exemplo.com]
+[João Antônio Pereira de Araújo Tercius] - [joaotercius@gmail.com]
 
-💡 Sistema desenvolvido como parte do processo seletivo para demonstrar habilidades full-stack em .NET e Angular.
