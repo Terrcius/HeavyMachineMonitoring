@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "HeavyMachineMonitoring.Api.Controllers.MachinesController",
+    "Method": "GetMachines",
+    "RelativePath": "api/Machines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeavyMachineMonitoring.Api.Controllers.MachinesController",
+    "Method": "CreateMachine",
+    "RelativePath": "api/Machines",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDto",
+        "Type": "HeavyMachineMonitoring.Application.DTOs.CreateMachineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeavyMachineMonitoring.Api.Controllers.MachinesController",
+    "Method": "GetMachine",
+    "RelativePath": "api/Machines/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeavyMachineMonitoring.Api.Controllers.MachinesController",
+    "Method": "UpdateTelemetry",
+    "RelativePath": "api/Machines/{id}/telemetry",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "HeavyMachineMonitoring.Application.DTOs.UpdateTelemetryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

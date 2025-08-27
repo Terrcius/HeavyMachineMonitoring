@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FAFD3C0-0E25-4AA9-B0AD-24EE56EB9FF2}|HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.application\\dtos\\machinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FAFD3C0-0E25-4AA9-B0AD-24EE56EB9FF2}|HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj|solutionrelative:heavymachinemonitoring.application\\dtos\\machinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F8BFD2-973F-4E0F-A212-90175D602874}|HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.domain\\entities\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F8BFD2-973F-4E0F-A212-90175D602874}|HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj|solutionrelative:heavymachinemonitoring.domain\\entities\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F8BFD2-973F-4E0F-A212-90175D602874}|HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.domain\\interfaces\\imachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F8BFD2-973F-4E0F-A212-90175D602874}|HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj|solutionrelative:heavymachinemonitoring.domain\\interfaces\\imachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47F34D8-08D0-48DE-A849-2CCCC5135F67}|HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D47F34D8-08D0-48DE-A849-2CCCC5135F67}|HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj|solutionrelative:heavymachinemonitoring.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47F34D8-08D0-48DE-A849-2CCCC5135F67}|HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.api\\controllers\\machinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D47F34D8-08D0-48DE-A849-2CCCC5135F67}|HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj|solutionrelative:heavymachinemonitoring.api\\controllers\\machinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FAFD3C0-0E25-4AA9-B0AD-24EE56EB9FF2}|HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.application\\heavymachinemonitoring.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FAFD3C0-0E25-4AA9-B0AD-24EE56EB9FF2}|HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj|solutionrelative:heavymachinemonitoring.application\\heavymachinemonitoring.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2B6414-4A0A-4ABE-A77B-3A87FEC35A4F}|HeavyMachineMonitoring.Infrastructure\\HeavyMachineMonitoring.Infrastructure.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2B6414-4A0A-4ABE-A77B-3A87FEC35A4F}|HeavyMachineMonitoring.Infrastructure\\HeavyMachineMonitoring.Infrastructure.csproj|solutionrelative:heavymachinemonitoring.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D47F34D8-08D0-48DE-A849-2CCCC5135F67}|HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.api\\heavymachinemonitoring.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D47F34D8-08D0-48DE-A849-2CCCC5135F67}|HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj|solutionrelative:heavymachinemonitoring.api\\heavymachinemonitoring.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F8BFD2-973F-4E0F-A212-90175D602874}|HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.domain\\heavymachinemonitoring.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8F8BFD2-973F-4E0F-A212-90175D602874}|HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj|solutionrelative:heavymachinemonitoring.domain\\heavymachinemonitoring.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FAFD3C0-0E25-4AA9-B0AD-24EE56EB9FF2}|HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.application\\services\\machineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FAFD3C0-0E25-4AA9-B0AD-24EE56EB9FF2}|HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj|solutionrelative:heavymachinemonitoring.application\\services\\machineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2B6414-4A0A-4ABE-A77B-3A87FEC35A4F}|HeavyMachineMonitoring.Infrastructure\\HeavyMachineMonitoring.Infrastructure.csproj|c:\\users\\joaot\\onedrive\\documentos\\entrevistas\\backend\\heavymachinemonitoring\\heavymachinemonitoring.infrastructure\\repositories\\machinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2B6414-4A0A-4ABE-A77B-3A87FEC35A4F}|HeavyMachineMonitoring.Infrastructure\\HeavyMachineMonitoring.Infrastructure.csproj|solutionrelative:heavymachinemonitoring.infrastructure\\repositories\\machinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HeavyMachineMonitoring.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj",
+              "RelativeToolTip": "HeavyMachineMonitoring.Application\\HeavyMachineMonitoring.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-27T06:11:21.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Machine.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Domain\\Entities\\Machine.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Domain\\Entities\\Machine.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Domain\\Entities\\Machine.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Domain\\Entities\\Machine.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:03:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:03:56.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HeavyMachineMonitoring.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj",
+              "RelativeToolTip": "HeavyMachineMonitoring.Api\\HeavyMachineMonitoring.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-27T06:15:26.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMachineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Domain\\Interfaces\\IMachineRepository.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Domain\\Interfaces\\IMachineRepository.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Domain\\Interfaces\\IMachineRepository.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Domain\\Interfaces\\IMachineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:06:28.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MachineDto.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Application\\DTOs\\MachineDto.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Application\\DTOs\\MachineDto.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Application\\DTOs\\MachineDto.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Application\\DTOs\\MachineDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:02:17.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Api\\Program.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Api\\Program.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:13:12.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MachinesController.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Api\\Controllers\\MachinesController.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Api\\Controllers\\MachinesController.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Api\\Controllers\\MachinesController.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Api\\Controllers\\MachinesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:12:04.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HeavyMachineMonitoring.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj",
+              "RelativeToolTip": "HeavyMachineMonitoring.Domain\\HeavyMachineMonitoring.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-27T06:05:20.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MachineService.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Application\\Services\\MachineService.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Application\\Services\\MachineService.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Application\\Services\\MachineService.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Application\\Services\\MachineService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:11:25.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MachineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Infrastructure\\Repositories\\MachineRepository.cs",
+              "RelativeDocumentMoniker": "HeavyMachineMonitoring.Infrastructure\\Repositories\\MachineRepository.cs",
+              "ToolTip": "C:\\Users\\joaot\\OneDrive\\Documentos\\Entrevistas\\Backend\\HeavyMachineMonitoring\\HeavyMachineMonitoring.Infrastructure\\Repositories\\MachineRepository.cs",
+              "RelativeToolTip": "HeavyMachineMonitoring.Infrastructure\\Repositories\\MachineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:08:37.647Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,47 +1,42 @@
-import {
-  Component,
-  ChangeDetectionStrategy,
-  computed,
-  signal,
-} from "@angular/core";
-import { CommonModule } from "@angular/common";
-import { Machine, MachineStatus } from "./models/machine.model";
-import { MachineService } from "./services/machine.service";
-import { Signal } from "@angular/core";
+import { Component, ChangeDetectionStrategy, computed, signal } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Machine, MachineStatus } from './models/machine.model';
+import { MachineService } from './services/machine.service';
+import { Signal } from '@angular/core';
 
 /**
  * Componente principal da aplicação.
  * @description Gerencia o estado da aplicação, a navegação entre as telas e a comunicação com o serviço.
  */
 @Component({
-  selector: "app-root",
+  selector: 'app-root',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: "./app.component.html",
-  styleUrl: "./app.component.css",
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [MachineService], // Fornece o serviço para o componente.
 })
 export class App {
   // Instância do serviço de simulação da API.
   private machineService: MachineService;
-  private allMachines: Signal<Machine[]>;
+  private allMachines: Signal<Machine[]> = signal<Machine[]>([]);
 
   // Signals para gerenciar o estado da aplicação.
-  public view = signal<"dashboard" | "add" | "details">("dashboard");
+  public view = signal<'dashboard' | 'add' | 'details'>('dashboard');
   public selectedMachineId = signal<string | null>(null);
 
   // Signals para o estado do formulário de cadastro.
-  public machineName = signal<string>("");
-  public machineLocation = signal<string>("");
-  public machineStatus = signal<string>("");
+  public machineName = signal<string>('');
+  public machineLocation = signal<string>('');
+  public machineStatus = signal<string>('');
   public successMessage = signal<string | null>(null);
 
   // Enum para o template.
   public statusOptions = Object.values(MachineStatus);
 
   // Signals para os dados e filtro.
-  public filterTerm = signal<string>("");
+  public filterTerm = signal<string>('');
 
   // Computed signal para a máquina selecionada.
   public selectedMachine = computed(() => {
@@ -61,8 +56,7 @@ export class App {
 
   // Computed signal para verificar a validade do formulário.
   public isFormInvalid = computed(
-    () =>
-      !this.machineName() || !this.machineLocation() || !this.machineStatus()
+    () => !this.machineName() || !this.machineLocation() || !this.machineStatus()
   );
 
   constructor(machineService: MachineService) {
@@ -74,13 +68,10 @@ export class App {
    * @param view A view para a qual navegar ('dashboard', 'add', 'details').
    * @param id O ID da máquina, se a navegação for para a página de detalhes.
    */
-  public setView(
-    view: "dashboard" | "add" | "details",
-    id: string | null = null
-  ) {
+  public setView(view: 'dashboard' | 'add' | 'details', id: string | null = null) {
     this.view.set(view);
     this.selectedMachineId.set(id);
-    if (view === "add") {
+    if (view === 'add') {
       this.resetForm();
     }
   }
@@ -90,7 +81,7 @@ export class App {
    * @param id O ID da máquina.
    */
   public viewDetails(id: string) {
-    this.setView("details", id);
+    this.setView('details', id);
   }
 
   /**
@@ -108,11 +99,11 @@ export class App {
         status: this.machineStatus() as MachineStatus,
       };
       await this.machineService.createMachine(newMachine);
-      this.successMessage.set("Máquina cadastrada com sucesso!");
+      this.successMessage.set('Máquina cadastrada com sucesso!');
       this.resetForm();
     } catch (error) {
-      console.error("Erro ao cadastrar máquina:", error);
-      this.successMessage.set("Erro ao cadastrar a máquina.");
+      console.error('Erro ao cadastrar máquina:', error);
+      this.successMessage.set('Erro ao cadastrar a máquina.');
     }
   }
 
@@ -134,9 +125,9 @@ export class App {
    * Reseta os campos do formulário para os valores iniciais.
    */
   private resetForm() {
-    this.machineName.set("");
-    this.machineLocation.set("");
-    this.machineStatus.set("");
+    this.machineName.set('');
+    this.machineLocation.set('');
+    this.machineStatus.set('');
     this.successMessage.set(null);
   }
 }
